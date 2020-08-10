@@ -1,0 +1,35 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 40rem;
+    font-family: cursive;
+}
+
+h3 {
+    color: rgb(93, 214, 93);
+}
+
+.grid {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gray;
+}
+
+.grid div {
+    height: 40px;
+    width: 40px;
+}
+
+.bomb,
+.checked,
+.safe {
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+
+.checked {
+    background-color: orange;
+}
